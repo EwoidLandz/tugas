@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+.header{
+	background-color: #845ec2;
+	height: 75px;
+}
+.header-logo{
+	float: left;
+	padding: 20px 30px;
+	font-size: 30px;
+}
+.header-list ul{
+	float:right;
+}
+.header-list ul li{
+	float:left;
+	padding: 13px 10px;
+	list-style: none;
+}
+.main{
+	background-color: floralwhite;
+	height: 2250px;
+}
+.copy-container{
+	font-size: 50px;
+}
+.section-title{
+	font-style: italic;
+	font-size: 25px;
+}
+.content-item a{
+	text-decoration: none;
+	color: black;
+}
+.content-item a:hover{
+	color: darksalmon;
+}
+.content-item h1 a:hover{
+	color: darkgoldenrod;
+}
+.footer{
+	background-color: black;
+	height: 50px;
+}
+.footer-logo{
+	color: white;
+	padding: 17px 15px;
+}
+h2{
+	padding: 1px 24em;
+}
+form{
+	width: 350px;
+	padding: 30px 20px;
+	margin:80px auto;
+	background-color: white;
+}	
+.form-login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+label{
+	display: block;
+	margin-bottom: 15px;
+}
+form ul{
+	border: 1px solid black;
+	background: mintcream;
+}
+li{
+	list-style: none;
+}
+input{
+	width: 200px;
+}
+button{
+	width:200px;
+}
