@@ -29,29 +29,28 @@
  </head>
  <body>
  	<h2>Pinjam Buku</h2>
- <div class="login">
  	<form action="" method="post">
  		<ul>
  			<li>
  				<label for="nama">Nama</label>
- 				<input type="text" name="nama" id="nama" required class="form-login">
+ 				<input type="text" name="nama" id="nama" required>
  			</li>
 
  			<li>
  				<label for="tanggal_peminjaman">Tanggal Peminjaman</label>
- 				<input type="text" name="tanggal_peminjaman" id="tanggal_peminjaman" required class="form-login">
+ 				<input type="text" name="tanggal_peminjaman" id="tanggal_peminjaman" required>
  			</li>
  			<li>
  				<label for="waktu_peminjaman">Waktu Peminjaman</label>
- 				<input type="text" name="waktu_peminjaman" id="waktu_peminjaman" required class="form-login">
+ 				<input type="text" name="waktu_peminjaman" id="waktu_peminjaman" required>
  			</li>
  			<li>
  				<label for="identitas_peminjaman">Identitas Peminjam</label>
- 				<input type="text" name="identitas_peminjaman" id="identitas_peminjaman" required class="form-login">
+ 				<input type="text" name="identitas_peminjaman" id="identitas_peminjaman" required>
  			</li>
  			<li>
  				<label for="gambar">Gambar</label>
- 				<input type="text" name="gambar" id="gambar" required class="form-login">
+ 				<input type="text" name="gambar" id="gambar" required>
  			</li>
  			<br></br>
  			<li>
@@ -59,6 +58,5 @@
  			</li>
  		</ul>
  	</form>
- 	</div>	
  </body>
  </html>
